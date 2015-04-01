@@ -24,6 +24,7 @@ module.exports = function neighborhoodWatcher(neighborhoodPath) {
 							emitter.emit('error', { parseXml: err })
 						} else {
 							photoAlbum.path = path
+							photoAlbum.stats = stats
 							emitter.emit('save', photoAlbum)
 						}
 					})
