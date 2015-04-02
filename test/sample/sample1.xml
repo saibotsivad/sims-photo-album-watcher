@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StoryCreator>
+  <ClientEnvironment>
+    <AppVersion>1.17.0.66</AppVersion>
+    <LanguageCode>en-us</LanguageCode>
+    <LanguageId>1</LanguageId>
+    <SKU>14726</SKU>
+    <GameVersion>2141707388.153.1,2141707388.182.1,2141707388.222.1,2141707388.272.1,2141707388.1.5,2141707388.1.6,2141707388.1.7,2141707388.1.8,2141707388.1.9,2141707388.1.10,2141707388.1.11,2141707388.1.12,2141707388.1.13,2141707388.1.14,2141707388.1.15,2141707388.1.16,2141707388.1.17,2141707388.1.18</GameVersion>
+  </ClientEnvironment>
+  <ExchangeMetadata>
+    <Album>
+      <ID>0x5d1c488d</ID>
+      <FamilyName><![CDATA[Awesome]]></FamilyName>
+      <FamilyId>12</FamilyId>
+      <LinkName></LinkName>
+      <NeighborhoodName><![CDATA[Ivy Hills]]></NeighborhoodName>
+      <LotID>0x0000001a</LotID>
+      <LotName><![CDATA[Springfield]]></LotName>
+      <Title><![CDATA[The Awesome Family]]></Title>
+      <Style>Album</Style>
+      <Entry>
+        <Title><![CDATA[Random Title]]></Title>
+        <ThumbnailFilename>thumbnail_5d1c488d_dd1c50c9.jpg</ThumbnailFilename>
+        <Snapshot>snapshot_5d1c488d_dd1c50c9.jpg</Snapshot>
+        <Text><![CDATA[A descriptive text here.]]></Text>
+        <TextResourceId>0x00000000</TextResourceId>
+        <TimeStamp>3/27/2014 21:48:0</TimeStamp>
+      </Entry>
+      <Entry>
+        <Title><![CDATA[]]></Title>
+        <ThumbnailFilename>thumbnail_5d1c488d_dd1c528e.jpg</ThumbnailFilename>
+        <Snapshot>snapshot_5d1c488d_dd1c528e.jpg</Snapshot>
+        <Text><![CDATA[Another thing goes here.]]></Text>
+        <TextResourceId>0x00000000</TextResourceId>
+        <TimeStamp>3/20/2015 21:48:0</TimeStamp>
+      </Entry>
+      <Entry>
+        <Title><![CDATA[]]></Title>
+        <ThumbnailFilename>thumbnail_5d1c488d_fd1c5297.jpg</ThumbnailFilename>
+        <Snapshot>snapshot_5d1c488d_fd1c5297.jpg</Snapshot>
+        <Text><![CDATA[Some sample text.]]></Text>
+        <TextResourceId>0x00000000</TextResourceId>
+        <TimeStamp>1/27/2015 21:48:0</TimeStamp>
+      </Entry>
+      <KeywordList/>
+      <UploadDescription><![CDATA[]]></UploadDescription>
+    </Album>
+  </ExchangeMetadata>
+</StoryCreator>
