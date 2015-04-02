@@ -17,11 +17,13 @@ module.exports = function neighborhoodWatcher(neighborhoodPath) {
 			console.log(path)
 			fs.readFile(path, { encoding: 'utf8' }, function(err, xml) {
 				if (err) {
-					emitter.emit('error', { readNeighborhoodFile: err })
+					err.readNeighborhoodFile = true
+					emitter.emit('error', err)
 				} else {
 					parser(xml, function(err, photoAlbum) {
 						if (err) {
-							emitter.emit('error', { parseXml: err })
+							err.parseXml = true
+							emitter.emit('error', err)
 						} else {
 							photoAlbum.path = path
 							photoAlbum.stats = stats
