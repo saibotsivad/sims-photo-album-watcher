@@ -1,6 +1,6 @@
 {
   "name": "sims-photo-album-watcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Watch a Sims 2 photo album folder for changes and emit events.",
   "main": "index.js",
   "scripts": {
