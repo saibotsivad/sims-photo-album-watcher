@@ -8,9 +8,11 @@ module.exports = function neighborhoodWatcher(neighborhoodPath) {
 	var emitter = new Emitter()
 
 	var watcher = chokidar.watch(path.normalize(neighborhoodPath))
-	watcher.on('add', emitUpdate)
-	watcher.on('change', emitUpdate)
-	watcher.on('unlink', emitDelete)
+	watcher.on('ready', function() {
+		watcher.on('add', emitUpdate)
+		watcher.on('change', emitUpdate)
+		watcher.on('unlink', emitDelete)
+	})
 
 	function emitUpdate(path, stats) {
 		if (isNeighborhoodFile(path)) {
