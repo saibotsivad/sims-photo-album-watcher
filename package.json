@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/saibotsivad/sims-photo-album-watcher",
   "devDependencies": {
-    "tape": "^3.5.0"
+    "tape": "^4.7.0"
   },
   "dependencies": {
     "chokidar": "^1.0.0-rc5",
-    "sims-photo-album-parser": "0.0.1"
+    "sims-photo-album-parser": "0.0.2"
   }
 }
