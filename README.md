@@ -1,5 +1,7 @@
 # sims-photo-album-watcher
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/sims-photo-album-watcher.svg)](https://greenkeeper.io/)
+
 Watch a Sims 2 photo album folder for changes and emit events.
 
 ## install
